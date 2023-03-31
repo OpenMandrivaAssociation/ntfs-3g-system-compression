@@ -1,7 +1,7 @@
 Summary:	NTFS-3G plugin for reading "system compressed" files
 Name:		ntfs-3g-system-compression
 Version:	1.0
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		System/Libraries
 URL:		https://github.com/ebiggers/ntfs-3g-system-compression
