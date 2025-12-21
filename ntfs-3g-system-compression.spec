@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		System/Libraries
 URL:		https://github.com/ebiggers/ntfs-3g-system-compression
 Source0:	https://github.com/ebiggers/ntfs-3g-system-compression/archive/v%{version}/ntfs-3g-system-compression-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libntfs-3g) >= 2017.3.23
 BuildRequires:	pkgconfig(fuse)
 
